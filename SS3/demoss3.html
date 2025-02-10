@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form trong HTML</h1>
+    <form action="https://ww.rikkeisever.com" method="POST">
+        <div>
+            <lable for="password">password:</lable>
+            <input type="password" name="password" id="password" placeholder="Ex: abc@123" />
+        </div>
+
+        <div>
+            <lable for="nickname">nickname:</lable>
+            <input type="text" name="nickname" id="nickname" placeholder="Ex mc05" />
+        </div>
+
+        <div>
+            <lable for="email">email:</lable>
+            <input type="email" name="email" id="email" placeholder="Ex mc05@gmail.com" />
+        </div>
+
+        <div>
+            <lable for="phone">phone number:</lable>
+            <input type="tel" name="phone" id="phone" placeholder="Ex 033-828-1662" pattern="[0-9]{3}[0-9]{3}[0-9]{4} "/>
+
+        </div>
+        
+        <div>
+            <lable for="web">Website:</lable>
+            <input type="url" name="web" id="web" placeholder="Ex https://www.abc.com" />
+        </div>
+        <div>
+            <lable for="search">search:</lable>
+            <input type="search" name="search" id="search" />
+        </div>
+        <div>
+            <lable for="age">age:</lable>
+            <input type="number" name="age" id="age" min="0" max="100" step="2"/>
+        </div>
+        <div>
+            <lable for="birthday">Birthday:</lable>
+            <input type="month" name="birthday" id="birthday" />
+        </div>
+        <input type="submit" value="Gửi thông tin"/>
+        <input type="button" value="Quay lại"/>
+        <input type="reset" value="reset"/>
+        <div>
+            <lable for="male">Nam:</lable>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <lable for="female">Nữ:</lable>
+            <input type="radio" id="female" name="gender" value="female"/>
+        </div>
+        <div>
+            <lable for="book">Đọc sách:</lable>
+            <input type="checkbox" id="book" name="hobby" value="book"/>
+            <lable for="music">Nghe nhạc:</lable>
+            <input type="checkbox" id="music" name="hobby" value="music"/>
+        </div>
+        <div>
+            <select name="city" multiple>
+                <option value="Hà Nội">Hà Nội</option>
+                <option>Hồ Chí Minh</option>
+                <option>Đà Nẵng</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

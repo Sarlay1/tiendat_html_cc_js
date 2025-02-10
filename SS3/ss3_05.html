@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="name">Họ và tên</label>
+        <input type="text" name="name" id="name" />
+    </div>
+    <div>
+        <label for="day">Chọn ngày giờ:</label>
+        <input type="datetime-local" name="day" id="day" />
+    </div>
+    <div>
+        <label for="service">Loại dịch vụ</label>
+        <select id="service" name="service" >
+            <option value="tu-van">Tư vấn</option>
+            <option value="ho-tro">Hỗ trọ</option>
+            <option value="bao-hanh">Bảo hành</option>
+            <option value="cskh">Chăm sóc khách hàng</option>
+        </select>
+    </div>
+    <div>
+        <label for="note">Ghi chú:</label>
+        <textarea id="note" name="note" rows="5" cols="50" required ></textarea>
+    </div>
+    <button>Đặt lịch</button>
+</body>
+</html>
