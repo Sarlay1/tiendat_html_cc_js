@@ -1,0 +1,53 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.infor {
+    background-color: rgb(32, 162, 198);
+}
+.home-button {
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 162, 198);
+
+    
+}
+.home-button:hover {
+    background-color: #5c86af;
+}
+.about-button {
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 162, 198);
+
+}
+.about-button:hover {
+    background-color: #5c86af;
+}
+.contacts-button {
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 162, 198);
+
+}
+.contacts-button:hover {
+    background-color: #5c86af;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
