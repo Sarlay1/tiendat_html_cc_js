@@ -1,0 +1,44 @@
+h1 {
+    font-family: "Roboto";
+}
+.table-container {
+    width: 90%;
+    border-collapse: collapse;
+}
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table-container th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+.table-container th, .table-container td {
+    padding: 12px;
+    text-align: center;
+}
+.management {
+    color: white;
+    background-color: rgb(45, 45, 228);
+    padding: 1px;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+.action-buttons button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
+.view-button {
+    background-color: green;
+}
+.update-button {
+    background-color: rgb(208, 135, 25);
+}
+.delete-button {
+    background-color: red;
+}

@@ -6,9 +6,9 @@ body{
 h2 {
     font-size: 24px;
 }
-.center{
+.center {
     text-align: center;
-    border: 3px solid green;
+    border: 3px solid #0a6a0a;
     padding: 10px;
     width: 96%;
 }
