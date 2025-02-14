@@ -1,0 +1,43 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+.card {
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+   
+    padding: 15px;
+}
+.editor-pick {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.editor-pick img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.thumbnail img {
+    border-radius: 8px;
+    width:90px;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.category {
+    color: #41455e;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.description {
+    color: #555;
+    font-size: 16px;
+}

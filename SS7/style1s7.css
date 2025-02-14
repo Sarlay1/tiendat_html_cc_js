@@ -1,0 +1,38 @@
+.ad-container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+    color: #231751;
+    padding: 10px; /* Giảm padding */
+    max-width: 500px; /* Đặt chiều rộng tối đa */
+    
+}
+.text {
+    color: #231751;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.ad-button1 {
+    background-color: #bc2229;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    margin-top: 5px;
+}
+.ad-button2 {
+    background-color: #eaeaea;
+    color: #231751;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    border: 0.5px solid rgb(193, 193, 193);
+    margin-top: 5px;
+}
+.ad-button1:hover {
+    background-color: #202424;
+}
+.ad-button2:hover {
+    background-color: #202424;
+}
