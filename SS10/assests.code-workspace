@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "../assests"
+		},
+		{
+			"path": "../SS1"
+		},
+		{
+			"path": "../SS2"
+		},
+		{
+			"path": "../SS3"
+		},
+		{
+			"path": "../SS4"
+		},
+		{
+			"path": "../SS5"
+		},
+		{
+			"path": "../SS6"
+		},
+		{
+			"path": "../SS7"
+		},
+		{
+			"path": "../SS8"
+		},
+		{
+			"path": "../SS9"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SS1"
+	}
+}
