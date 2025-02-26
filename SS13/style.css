@@ -1,0 +1,64 @@
+:root {
+   --bg-color: #0A0A0A;
+   --btn-color: #D3E97A;
+   --heading-color: #FFFFFF;
+   --text-color:#c7c7c7;
+   --primary-font: "Bebas Neus";
+   --secondary-font: "Manrope";
+   --corner-radius: 12px;
+
+}    
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+    color:var(--text-color);
+    font-size: 18px;
+}
+nav {
+    padding: 24px 60px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .mobile-menu {
+    display: none;
+    background-color: var(--bg-color);
+    border: none;
+}
+nav .logo {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    text-transform: uppercase;
+} 
+nav .desktop-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    cursor: pointer;
+}
+nav .desktop-menu li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+@media  screen and (max-width: 760px) {
+    nav .desktop-menu {
+        display: none;
+    } 
+    nav .mobile-menu {
+        display: block;
+        
+    }
+}
+h1 {
+    width: 544px;
+    height: 182px;
+    font-family: "Bebas Neue";
+    color: ;
+}
