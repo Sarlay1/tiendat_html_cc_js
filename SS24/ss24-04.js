@@ -12,7 +12,7 @@ let menu = `
 7. Thoát chương trình
 ===========================================
 
-Lựa chọn của bạn là gì?
+Nhập lựa chọn của bạn
 `;
 
 while (loop) {

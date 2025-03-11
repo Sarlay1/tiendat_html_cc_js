@@ -79,11 +79,11 @@ while (loop) {
             }
             break;
         case 7:
-            alert("Kết thúc chương trình. Cảm ơn!");
+            alert("Kết thúc chương trình");
             loop = false;
             break;
         default:
-            alert("Lựa chọn không hợp lệ, vui lòng chọn lại!");
+            alert("Lựa chọn không hợp lệ, vui lòng chọn lại");
             break;
     }
 }
