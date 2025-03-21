@@ -1,0 +1,11 @@
+body {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #0b0b0b;
+}
+
+#button {
+    padding: 10px 20px;
+    border: 1px solid #0b0b0b;
+    cursor: pointer;
+}
